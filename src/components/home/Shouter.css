@@ -1,0 +1,91 @@
+.shouter {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 160px 100px 250px;
+}
+.shouter .tech-skills p {
+    font-size: 1.1rem;
+    padding: 12px 0 20px;
+    opacity: 0.65;
+}
+.shouter .tech-skills ul li {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+.shouter section {
+    width: 65%;
+}
+.shouter section h3 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 72px */
+    letter-spacing: -0.48px;
+    margin-bottom: 48px;
+}
+.shouter section h3 br {
+    display: none;
+}
+.shouter section > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shouter section > div p {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.2px;
+    width: 66%;
+}
+.shouter section span {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 2px 30px;
+}
+.shouter section > div a {
+    align-self: flex-end;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+}
+@media (max-width: 992px) {
+    .shouter section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 776px) {
+    .shouter {
+        padding: 0 32px 88px;
+    }
+    .shouter .tech-skills {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .shouter > section span {
+        padding: 0 16px;
+    }
+    .shouter section h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+    .shouter section h3 br {
+        display: block;
+    }
+    .shouter section > div {
+        justify-content: center;
+        align-items: center;
+    }
+    .shouter section > div p {
+        width: 100%;
+        text-align: center;
+    }
+    .shouter section > div a {
+        margin: 40px 0;
+    }
+}

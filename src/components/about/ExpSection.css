@@ -1,0 +1,113 @@
+.exp-section {
+    padding: 0 100px;
+}
+.exp-section .exp-work .exp-work-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.exp-section .exp-work .exp-work-item p {
+    padding: 50px 0;
+}
+.exp-section .exp-work .exp-work-item > div {
+    border-bottom: 1px solid #9FA0A3;
+}
+.exp-section .exp-work .exp-work-item > div {
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+.exp-section .exp-work .exp-work-item > div > h4 {
+    width: 100%;
+}
+
+.exp-section .exp-skills {
+    padding-top: 150px;
+}
+.exp-section .exp-skills .exp-skills-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.exp-section .exp-skills .exp-skills-item > div {
+    border-bottom: 1px solid #9FA0A3;
+}
+.exp-section .exp-skills .exp-skills-item > div {
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+.exp-section .exp-skills .exp-skills-item > div p {
+    width: 50%;
+    padding-bottom: 50px;
+}
+#cv-download {
+    margin: 100px 0;
+    text-align: center;
+}
+#cv-download a {
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.exp-section h3 {
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.28px;
+}
+.exp-section h4 {
+    text-align: right;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.28px;
+}
+.exp-section h6 {
+    color: #9FA0A3;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.18px;
+    padding-bottom: 15px;
+}
+.exp-section p {
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.18px;
+}
+@media (max-width: 776px) {
+    .exp-section {
+        padding: 0 32px;
+    }
+    .exp-section h4 {
+        text-align: start;
+        padding-bottom: 50px;
+    }
+    .exp-section .exp-work .exp-work-item > div {
+        width: 100%;
+        display: block;
+    }
+    .exp-section .exp-skills {
+        padding-top: 50px;
+    }
+    .exp-section .exp-skills .exp-skills-item > div {
+        width: 100%;
+        display: block;
+    }
+    .exp-section .exp-skills .exp-skills-item > div p {
+        width: 100%;
+    }
+    .exp-section .exp-skills .exp-skills-item > div h3 {
+        padding-bottom: 32px;
+    }
+}

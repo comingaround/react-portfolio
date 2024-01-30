@@ -1,0 +1,42 @@
+.nav-invert {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: max(-25vh, -200px);
+    width: 100%;
+}
+.nav-invert nav {
+    background-color: rgb(43, 42, 42); 
+}
+.nav-invert ul li a {
+    color: white;
+}
+.nav-invert > nav > ul > li:nth-child(4) > a > svg path {
+    fill: white;
+}
+.nav-invert ul li:first-child,
+.nav-invert ul li:nth-child(3) {
+    width: 99px;
+    text-align: center;
+    padding: 0 35px;
+}
+.nav-invert nav ul li:first-child svg.active-pathway path,
+.nav-invert nav ul li:nth-child(3) svg.active-pathway path {
+    fill: black;
+}
+.nav-invert nav ul li:first-child svg.active-pathway path:first-child,
+.nav-invert nav ul li:nth-child(3) svg.active-pathway path:first-child {
+    stroke: black;
+}
+
+@media (min-width: 776px) {
+    .nav-invert .active-pathway {
+        background-color: white;
+        color: black;
+    }
+}
+@media (max-width: 776px) {
+    .nav-invert {
+        display: none;
+    }
+}

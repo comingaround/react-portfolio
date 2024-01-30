@@ -1,0 +1,16 @@
+.about-header > div:last-child {
+    padding: 260px 100px 220px;
+}
+.about-header > div:last-child p {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 72px */
+    letter-spacing: -0.96px;
+}
+
+@media (max-width: 776px) {
+    .about-header > div:last-child {
+        padding: 32px;
+    }
+}

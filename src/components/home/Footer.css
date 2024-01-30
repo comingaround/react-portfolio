@@ -1,0 +1,65 @@
+footer {
+    height: 64vh;
+    background: black;
+    color: white;
+    padding: min(5vw, 100px);
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: 1.1rem;
+    justify-content: space-between;
+}
+footer a {
+    color: white;
+}
+footer div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+footer div:first-child > * {
+   width: 33%;
+   opacity: 0.6;
+}
+footer div:first-child > p:nth-child(2) {
+    text-align: center;
+    opacity: 1;
+}
+footer div:first-child > a {
+    text-align: right;
+}
+footer div:nth-child(2) {
+    text-align: center;
+    margin-bottom: 70px;
+}
+footer div:nth-child(2) p {
+    padding-bottom: 20px;
+    color: #9FA0A3;
+}
+footer div:nth-child(2) > a {
+    /* font-size: 5.8rem; */
+    font-size: 3.8vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 72px; /* 76.596% */
+    letter-spacing: -0.94px;
+    padding-bottom: 100px;
+}
+footer div:last-child {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.6;
+}
+@media (max-width: 776px) {
+    footer {
+        padding: max(5vw, 32px);
+    }
+    footer div:nth-child(2) > a {
+        font-size: 40px;
+    }
+    footer div:first-child > p:nth-child(2) {
+        width: 100%;
+    }
+    footer div:first-child > p:first-child,
+    footer div:first-child > a:last-child {
+        display: none;
+    }
+}
