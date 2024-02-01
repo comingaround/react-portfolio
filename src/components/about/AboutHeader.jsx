@@ -10,7 +10,7 @@ function AboutHeader({ onEmailClick }) {
                 <a href="" onClick={onEmailClick}>hello@aleksim.com</a>
             </div>
             <div>
-                <p>Enthusiastic junior front-end developer with a strong foundation in HTML, CSS, and JavaScript. Experienced in building responsive web applications using React and Vue. Eager to bring my passion for user-centric design to XYZ Company.</p>
+                <p>Driven and dynamic Mid-level Front-end developer, I possess a robust foundation in HTML, CSS, and JavaScript, complemented by hands-on experience in crafting responsive web applications leveraging React and Bootstrap frameworks. With a keen dedication to user-centric design principles, I am poised to contribute my passion and innovative approach to enhancing the digital presence of Your Company.</p>
             </div>
         </div>
     );
