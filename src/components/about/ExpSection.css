@@ -85,10 +85,7 @@
     line-height: 28px;
     letter-spacing: -0.18px;
 }
-@media (max-width: 776px) {
-    .exp-section {
-        padding: 0 32px;
-    }
+@media (max-width: 1440px) {
     .exp-section h4 {
         text-align: start;
         padding-bottom: 50px;
@@ -96,6 +93,11 @@
     .exp-section .exp-work .exp-work-item > div {
         width: 100%;
         display: block;
+    }
+}
+@media (max-width: 776px) {
+    .exp-section {
+        padding: 0 32px;
     }
     .exp-section .exp-skills {
         padding-top: 50px;
