@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import "./ExpSection.css";
+import "../../../documents/aleksandr_simonov.pdf";
 
 function ExpSection(){
     return(
@@ -137,7 +138,7 @@ function ExpSection(){
             </div>
         </div>
         <div id='cv-download'>
-            <a href="path/to/your/file.pdf" download="YourFileName.pdf">Download as PDF</a>
+            <a href="../../../documents/aleksandr_simonov.pdf" download="YourFileName.pdf">Download as PDF</a>
         </div>
        </div>
     );
