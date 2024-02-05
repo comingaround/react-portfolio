@@ -137,7 +137,7 @@ function ExpSection(){
             </div>
         </div>
         <div id='cv-download'>
-            <a href="../../../documents/aleksandr_simonov.pdf" download="YourFileName.pdf">Download as PDF</a>
+            <a href="/documents/aleksandr_simonov.pdf" download="aleksandr_simonov.pdf">Download as PDF</a>
         </div>
        </div>
     );

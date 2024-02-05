@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import "./ContactForm.css";
 
-function ContactForm({onClose}) {
+function ContactForm({ onClose }) {
     const [formData, setFormData] = useState({ name: '', email: '', help: '', date: '' });
+
+    // handleChange remains the same, capturing input changes
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(formData);
     };
 
     return (
@@ -20,23 +18,24 @@ function ContactForm({onClose}) {
                     <path d="M17.4854 17.9853L0.514789 1.01473" stroke="black"/>
                 </svg>  
             </div>
-            <form onSubmit={handleSubmit} method="post">
+            <form action="https://formspree.io/f/xgegazdp" method="POST">
                 <div className="form-group">
                     <label htmlFor="name">Hi, my name is</label>
-                    <input type="text" id="name" name="name" value={formData.name} placeholder="John Doe" onChange={handleChange} required />
+                    <input type="text" id="name" name="name" placeholder="John Doe" onChange={handleChange} required />
                     <label htmlFor="email">You can answer me on this email</label>
-                    <input type="email" id="email" name="email" value={formData.email} placeholder="email@example.com" onChange={handleChange} required />
+                    <input type="email" id="email" name="_replyto" placeholder="email@example.com" onChange={handleChange} required />
                     <label htmlFor="help">I am looking for help with a</label>
-                    <input type="text" id="help" name="help" value={formData.help} placeholder="e.g., website design" onChange={handleChange} />
+                    <input type="text" id="help" name="help" placeholder="e.g., website design" onChange={handleChange} />
                     <label htmlFor="date">and I need it done by</label>
-                    <input type="date" id="date" name="date" value={formData.date} onChange={handleChange} />
+                    <input type="date" id="date" name="date" onChange={handleChange} />
                 </div>
-            <button type="submit">Contact Us</button>
+                <input type="hidden" name="_subject" value="New submission from Contact Form!"/>
+                <button type="submit">Contact Us</button>
             </form>
             <div>
-                <a href="">Instagram</a>
-                <a href="">Facebook</a>
-                <a href="">hello@aleksim.com</a>
+                <a href="https://www.linkedin.com/in/aleksandr-simonov-6b1a74238" target='_blank'>LinkedIn</a>
+                <a href="https://www.facebook.com/aleksandras.simonov/" target='_blank'>Facebook</a>
+                <a href="mailto:hello@aleksim.com" target='_blank'>hello@aleksim.com</a>
             </div>
         </div>
     );

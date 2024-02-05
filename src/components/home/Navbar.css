@@ -79,14 +79,17 @@ nav > ul > li:nth-child(5) a {
         top: 70px;
         left: 0;
         width: 100%;
-        height: 37%;
+        height: 30%;
         transform: none;
         z-index: 100;
         background-color: #EBEBEB;
     }
     nav ul {
-        padding: 24px 0;
-        display: block;
+        margin: 16px 0;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
     }
     nav ul li {
         height: auto;

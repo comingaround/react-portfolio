@@ -50,7 +50,7 @@ function Navbar({ invertStyle = false, onEmailClick }) {
     return (
         
         <div className={invertStyle ? 'nav-invert' : ''}>
-            <nav style={{ display: burgerOn ? 'none' : 'block', position: burgerOn ? 'static' : 'absolute' }}>
+            <nav style={{ display: burgerOn ? 'none' : 'flex', position: burgerOn ? 'static' : 'absolute' }}>
                 <ul onClick={() => screenWidth < 776 && toggleBurger()}>
                 {invertStyle ? (
                     <li className={location.pathname === "/" ? "active-pathway" : ""} onClick={location.pathname === "/" ? scrollToTop : null}>

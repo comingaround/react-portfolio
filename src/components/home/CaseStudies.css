@@ -34,6 +34,11 @@
     justify-content: space-between;
     flex-direction: column;
 }
+.case-studies-preview:hover > div {
+    opacity: 0.85;
+    visibility: visible;
+    transition: opacity 1s;
+}
 .case-studies-preview > div h1 {
     font-size: max(2.5vw, 16px);
     font-style: normal;
@@ -53,11 +58,6 @@
 }
 .case-studies-preview > div > div > div > h1:nth-child(2) {
     padding: max(1.6vw, 8px) 0 max(3.2vw, 16px);
-}
-.case-studies-preview:hover > div {
-    opacity: 0.85;
-    visibility: visible;
-    transition: opacity 1s;
 }
 @media (max-width: 1200px) {
     .case-studies-preview iframe {
