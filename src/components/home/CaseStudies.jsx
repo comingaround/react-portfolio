@@ -5,7 +5,7 @@ import "./CaseStudies.css";
 function CaseStudies() {
     return(
         <div className="case-studies">
-            <div className="case-studies-preview">
+            {/* <div className="case-studies-preview">
                 <section>
                     <iframe
                         src="https://www.miromax.lt/"
@@ -31,7 +31,7 @@ function CaseStudies() {
                         </svg>
                     </a>
                 </div>
-            </div>
+            </div> */}
             <div className="case-studies-preview">
                 <section>
                     <iframe

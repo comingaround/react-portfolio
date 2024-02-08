@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
 import "./AboutHeader.css";
 
 function AboutHeader({ onEmailClick }) {
@@ -10,7 +9,7 @@ function AboutHeader({ onEmailClick }) {
                 <a href="" onClick={onEmailClick}>hello@aleksim.com</a>
             </div>
             <div>
-                <p>Driven and dynamic Mid-level Front-end developer, I possess a robust foundation in HTML, CSS, and JavaScript, complemented by hands-on experience in crafting responsive web applications leveraging React and Bootstrap frameworks. With a keen dedication to user-centric design principles, I am poised to contribute my passion and innovative approach to enhancing the digital presence of Your Company.</p>
+                <p>A highly motivated and talented Front-end Developer with a solid foundation in HTML, CSS, and JavaScript, and a demonstrated ability to learn and apply new technologies quickly. I specialize in creating responsive web applications using React and Bootstrap frameworks, and have a keen eye for design and user experience.</p>
             </div>
         </div>
     );

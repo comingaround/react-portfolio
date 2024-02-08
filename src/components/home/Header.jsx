@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import "./Header.css";
 
 function Header({ onEmailClick }) {
@@ -17,7 +16,7 @@ function Header({ onEmailClick }) {
             </div>
           </div>
           <div>
-            <h3>An Independent Mid-level <br /> Front-end Developer <br /> currently based in Vilnius</h3>
+            <h3>An Aspiring Independent <br /> Front-end Developer <br /> currently based in Vilnius</h3>
           </div>
         </div>
       </div>

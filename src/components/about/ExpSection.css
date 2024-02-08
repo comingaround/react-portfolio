@@ -19,13 +19,10 @@
     justify-content: space-between;
     flex-wrap: nowrap;
 }
-.exp-section .exp-work .exp-work-item > div > div {
-    width: 190%;
-}
 .exp-section .exp-work .exp-work-item > div > h4 {
-    width: 100%;
+    width: auto;
+    text-wrap: nowrap;
 }
-
 .exp-section .exp-skills {
     padding-top: 150px;
 }
@@ -66,7 +63,6 @@
 .exp-work-title {
     padding-top: 34px;
 }
-
 .exp-section h3 {
     font-size: 1.75rem;
     font-style: normal;
@@ -109,6 +105,9 @@
     }
     .exp-work-title {
         padding-top: 0;
+    }
+    .exp-section .exp-work .exp-work-item > div > div {
+        width: 100%;
     }
 }
 @media (max-width: 776px) {
