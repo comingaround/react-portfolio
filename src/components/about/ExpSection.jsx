@@ -100,8 +100,8 @@ function ExpSection(){
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>React.js</li>
-                        <li style={{marginLeft: '20px'}}>Next.js (begginer)</li>
-                        <li style={{marginLeft: '20px'}}>TypeScript (begginer)</li>
+                        <li style={{marginLeft: '20px'}}>Next.js (beginner)</li>
+                        <li style={{marginLeft: '20px'}}>TypeScript (beginner)</li>
                         <li>WordPress</li>
                         <li style={{marginLeft: '20px'}}>WooCommerce</li>
                         <li>ChatGPT model training</li>
