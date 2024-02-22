@@ -5,9 +5,10 @@
     overflow: hidden;
     border-radius: 50px;
 }
-.case-studies-preview iframe {
-    height: 40vw;
+.case-studies-preview img {
+    height: 45vw;
     border-radius: 50px;
+    width: 100%;
 }
 .case-studies-preview section a {
     position: absolute;
@@ -60,7 +61,7 @@
     padding: max(1.6vw, 8px) 0 max(3.2vw, 16px);
 }
 @media (max-width: 1200px) {
-    .case-studies-preview iframe {
+    .case-studies-preview img {
         height: 60vw;
     }
 }
@@ -69,7 +70,7 @@
         border-radius: 0;
         margin: 0 auto;
     }
-    .case-studies-preview iframe {
+    .case-studies-preview img {
         height: 600px;
     }
     .case-studies-preview > div {
@@ -88,5 +89,14 @@
     }
     .case-studies-preview section a {
         display: block;
+    }
+    .case-studies-preview img {
+        object-fit: scale-down;
+        height: 50vh;
+    }
+}
+@media (max-width: 525px) {
+    .case-studies-preview img {
+        object-fit: cover;
     }
 }

@@ -100,9 +100,11 @@ function ExpSection(){
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>React.js</li>
-                        <li>WordPress/WooCommerce</li>
+                        <li style={{marginLeft: '20px'}}>Next.js (begginer)</li>
+                        <li style={{marginLeft: '20px'}}>TypeScript (begginer)</li>
+                        <li>WordPress</li>
+                        <li style={{marginLeft: '20px'}}>WooCommerce</li>
                         <li>ChatGPT model training</li>
-                        <li>TypeScript basics</li>
                         <li>SEO basics</li>
                         <li>UI/UX basics</li>
                     </ul>
@@ -137,7 +139,7 @@ function ExpSection(){
             </div>
         </div>
         <div id='cv-download'>
-            <a href="/documents/aleksandr_simonov_cv.pdf" download="aleksandr_simonov_cv.pdf">Download as PDF</a>
+            <a href="/documents/Aleksandr_Simonov_Resume.pdf" download="Aleksandr_Simonov_Resume.pdf">Download as PDF</a>
         </div>
        </div>
     );

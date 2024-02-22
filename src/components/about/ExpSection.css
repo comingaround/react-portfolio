@@ -127,4 +127,27 @@
     .exp-section .exp-skills .exp-skills-item > div h3 {
         padding-bottom: 32px;
     }
+    .exp-section .exp-skills ul {
+        width: 100%!important;
+    }
+    .exp-section .exp-skills .exp-skills-item > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column nowrap;
+    }
+    .exp-section .exp-skills .exp-skills-item > div ul {
+        padding-left: 40%;
+    }
+    #root > div.exp-section > div.exp-skills > div:nth-child(2) > div > ul {
+        padding-left: 20px;
+    }
+}
+@media (max-width: 475px) {
+    .exp-section .exp-skills .exp-skills-item > div ul {
+        padding-left: 35%;
+    }
+    #root > div.exp-section > div.exp-skills > div:nth-child(2) > div > ul {
+        padding-left: 20px;
+    }
 }
