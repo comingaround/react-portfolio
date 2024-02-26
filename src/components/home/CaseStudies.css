@@ -60,9 +60,13 @@
 .case-studies-preview > div > div > div > h1:nth-child(2) {
     padding: max(1.6vw, 8px) 0 max(3.2vw, 16px);
 }
+.case_tablet,
+.case_phone {
+    display: none;
+}
 @media (max-width: 1200px) {
     .case-studies-preview img {
-        height: 60vw;
+        height: 50vw;
     }
 }
 @media (max-width: 776px) {
@@ -71,7 +75,15 @@
         margin: 0 auto;
     }
     .case-studies-preview img {
-        height: 600px;
+        height: 80vh;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .case_desk {
+        display: none;
+    }
+    .case_tablet {
+        display: block;
     }
     .case-studies-preview > div {
         position: static;
@@ -90,13 +102,17 @@
     .case-studies-preview section a {
         display: block;
     }
-    .case-studies-preview img {
-        object-fit: scale-down;
-        height: 50vh;
-    }
 }
-@media (max-width: 525px) {
+@media (max-width: 475px) {
+    .case_tablet {
+        display: none;
+    }
+    .case_phone {
+        display: block;
+    }
     .case-studies-preview img {
-        object-fit: cover;
+        height: 70vh;
+        width: 90%;
+        margin: 0 auto;
     }
 }

@@ -6,7 +6,9 @@ function CaseStudies() {
         <div className="case-studies">
             <div className="case-studies-preview">
                 <section>
-                    <img src="/caseStudies/aurora.png" alt="1 " />
+                    <img className='case_desk' src="/caseStudies/aurora.png" alt="1 " />
+                    <img className='case_tablet' src="/caseStudies/aurora_tablet.png" alt="1 " />
+                    <img className='case_phone' src="/caseStudies/aurora_phone.png" alt="1 " />
                     <a href="https://github.com/comingaround/aurora-next-ts" target="_blank"></a>
                 </section>
                 <div className='case-studies-2'>
@@ -27,7 +29,9 @@ function CaseStudies() {
             </div> 
             <div className="case-studies-preview">
                 <section>
-                    <img src="/caseStudies/oaze.png" alt="1 " />
+                    <img className='case_desk' src="/caseStudies/oaze.png" alt="1 " />
+                    <img className='case_tablet' src="/caseStudies/oaze_tablet.png" alt="1 " />
+                    <img className='case_phone' src="/caseStudies/oaze_phone.png" alt="1 " />
                     <a href="https://github.com/comingaround/oaze-next-ts" target="_blank"></a>
                 </section>
                 <div className='case-studies-2'>
@@ -48,7 +52,9 @@ function CaseStudies() {
             </div>            
             <div className="case-studies-preview">
                 <section>
-                    <img src="/caseStudies/miromax.png" alt="1 " />
+                    <img className='case_desk' src="/caseStudies/miromax.png" alt="1 " />
+                    <img className='case_tablet' src="/caseStudies/miro_tablet.png" alt="1 " />
+                    <img className='case_phone' src="/caseStudies/miro_phone.png" alt="1 " />
                     <a href="https://www.miromax.lt/" target="_blank"></a>
                 </section>
                 <div className='case-studies-3'>
