@@ -105,7 +105,7 @@ function ExpSection(){
                         <li>WordPress</li>
                         <li style={{marginLeft: '20px'}}>WooCommerce</li>
                         <li>SQL</li>
-                        <li>API</li>
+                        <li>Rest Api</li>
                         <li>SEO (basics)</li>
                         <li>UI/UX (basics)</li>
                     </ul>
