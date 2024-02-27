@@ -11,18 +11,19 @@ function Shouter() {
             <div className='tech-skills' >
                 <p>Technologies:</p>
                 <ul>
-                <li>HTML/CSS</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                        <li>React.js</li>
-                        <li style={{marginLeft: '20px'}}>Next.js (beginner)</li>
-                        <li style={{marginLeft: '20px'}}>TypeScript (beginner)</li>
-                        <li>WordPress</li>
-                        <li style={{marginLeft: '20px'}}>WooCommerce</li>
-                        <li>SQL</li>
-                        <li>Rest APi</li>
-                        <li>SEO (basics)</li>
-                        <li>UI/UX (basics)</li>
+                    <li>HTML/CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li style={{marginLeft: '20px'}}>Next.js (beginner)</li>
+                    <li style={{marginLeft: '20px'}}>TypeScript (beginner)</li>
+                    <li>WordPress</li>
+                    <li style={{marginLeft: '20px'}}>WooCommerce</li>
+                    <li>SQL</li>
+                    <li>Rest APi</li>
+                    <li>SEO (basics)</li>
+                    <li>UI/UX (basics)</li>
                 </ul>
             </div>
                 <section>

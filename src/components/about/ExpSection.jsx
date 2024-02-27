@@ -98,6 +98,7 @@ function ExpSection(){
                     <ul>
                         <li>HTML/CSS</li>
                         <li>Bootstrap</li>
+                        <li>Tailwind CSS</li>
                         <li>JavaScript</li>
                         <li>React.js</li>
                         <li style={{marginLeft: '20px'}}>Next.js (beginner)</li>
