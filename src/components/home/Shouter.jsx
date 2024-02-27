@@ -19,7 +19,8 @@ function Shouter() {
                         <li style={{marginLeft: '20px'}}>TypeScript (beginner)</li>
                         <li>WordPress</li>
                         <li style={{marginLeft: '20px'}}>WooCommerce</li>
-                        <li>ChatGPT model training</li>
+                        <li>SQL</li>
+                        <li>API</li>
                         <li>SEO basics</li>
                         <li>UI/UX basics</li>
                 </ul>
