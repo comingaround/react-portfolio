@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
 import "./ExpSection.css";
 
 function ExpSection(){
@@ -21,6 +20,16 @@ function ExpSection(){
                 <h6></h6>
                 <div>
                     <div>
+                        <h3>Front End Developer for Mik.lt</h3>
+                        <p>For MiroMax, took the challenge of modernizing a decade-old websites by implementing responsive code, ensuring consisten design across all mobile devices. This task required me to take a deep dive into existing inadequate code structures and introduce more modern front-end development practices.</p>
+                    </div>
+                    <h4>Jul 2023 → Present</h4>
+                </div>
+            </div>
+            <div className="exp-work-item">
+                <h6></h6>
+                <div>
+                    <div>
                         <h3>Front End Developer for Juvelyrikos Oaze</h3>
                         <p>At Juvelyrikos Oaze I led the development of their business website using React and TypeScript. I used different components to make the design dynamic and responsive and aimed to follow only the best practices in front-end development. The end result - a landing page that fulfilled both aesthetic and functional goals, together demonstrating  my capacity for innovative and efficient project execution.</p>
                     </div>
@@ -35,17 +44,7 @@ function ExpSection(){
                         <h3>Personal Portfolio Website</h3>
                         <p>I used React to create my personal portfolio website where I could showcase my front-end development projects. My main goal was to create a simple, compelling and consistent user experience on different devices.</p>
                     </div>
-                    <h4 className='exp-work-title'>Jan 2023 → Present</h4>
-                </div>
-            </div>
-            <div className="exp-work-item">
-                <h6></h6>
-                <div>
-                    <div>
-                        <h3>Front End Developer for MiroMAX</h3>
-                        <p>For MiroMax, took the challenge of modernizing a decade-old website by implementing responsive code, ensuring consisten design across all mobile devices. This task required me to take a deep dive into existing inadequate code structures and introduce more modern front-end development practices.</p>
-                    </div>
-                    <h4>Jul 2023 → Feb 2024</h4>
+                    <h4 className='exp-work-title'>Dec 2023 → Feb 2024</h4>
                 </div>
             </div>
             <div className="exp-work-item">
