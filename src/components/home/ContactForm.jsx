@@ -4,7 +4,6 @@ import "./ContactForm.css";
 function ContactForm({ onClose }) {
     const [formData, setFormData] = useState({ name: '', email: '', help: '', date: '' });
 
-    // handleChange remains the same, capturing input changes
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
