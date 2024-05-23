@@ -64,11 +64,7 @@
 .case_phone {
     display: none;
 }
-@media (max-width: 1200px) {
-    .case-studies-preview img {
-        /* height: 80vh; */
-    }
-}
+
 @media (max-width: 768px) {
     .case-studies-preview {
         border-radius: 0;
