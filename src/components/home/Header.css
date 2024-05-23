@@ -60,6 +60,9 @@
     .shouter-line > div:nth-child(2) h3 {
         font-size: 62px;
     }
+    .shouter-line {
+        padding: 50px 100px;
+    }
 }
 @media (max-width: 992px) {
     .header {
